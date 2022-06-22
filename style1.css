@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    text-align: center;
+}
+.c-body{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    max-width: 350px;
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.3;
+}
+.c-body:hover{
+    box-shadow: 0 16px 32px 0 black;
+}
+.card #result{
+    height: 100px;
+    width: 335px;
+    font-size: 0px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 5px;
+    letter-spacing: 5px;
+}
+.btn{
+    width: 85px;
+    height: 87px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: darkslategray;
+    color: aquamarine;
+}
+.btn-style{
+    background-color: darkorange;
+    color: blue;
+}
+.btn:hover{
+    background-color: pink;
+}
